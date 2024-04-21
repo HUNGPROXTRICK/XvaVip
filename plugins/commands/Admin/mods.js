@@ -1,5 +1,5 @@
 const config = {
-    name: "mods",
+    name: "admin",
     aliases: ["moderators"],
     version: "1.0.1",
     description: "List, Add or remove moderators",

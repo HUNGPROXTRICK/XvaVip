@@ -1,6 +1,6 @@
 const config = {
     name: "setmoney",
-    aliases: ["setbalance", "setbal"],
+    aliases: ["donate", "setbal"],
     permissions: [2],
     description: "Set money of a user",
     usage: "<reply/tag/me> <amount>",
@@ -21,7 +21,7 @@ const langData = {
         "setmoney.invalidAmount": "Số tiền không hợp lệ",
         "setmoney.userNoData": "Người dùng không tồn tại/chưa sẵn sàng",
         "setmoney.onlyOneMention": "Bạn chỉ có thể tag một người",
-        "setmoney.success": "Thành công",
+        "setmoney.success": "Thành Công",
         "setmoney.failed": "Thất bại"
     }
 }
