@@ -7,7 +7,7 @@ const config = {
     cooldown: 5,
     extra: {
         minAmount: 100,
-        fee: 0.05
+        fee: 500
     }
 }
 

@@ -5,7 +5,7 @@ const _1HOURS = 1 * 60 * 60 * 1000;
 const _30MINUTES = 30 * 60 * 1000;
 
 const config = {
-    name: "work",
+    name: "đĩ",
     aliases: ["wk"],
     description: "Work to earn money",
     credits: "XaviaTeam",
@@ -25,8 +25,8 @@ const langData = {
     },
     "vi_VN": {
         "work.selfNoData": "Dữ liệu của bạn chưa sẵn sàng",
-        "work.alreadyWorked": "Bạn đã làm việc, bạn có thể làm việc lại sau {time}",
-        "work.successfullyWorked": "Bạn đã làm việc và kiếm được {amount}XC",
+        "work.alreadyWorked": "Bạn đang kiệt sức, bạn có thể làm việc lại sau {time}",
+        "work.successfullyWorked": "Bạn đã làm đĩ và kiếm được {amount}XC",
         "work.failed": "Thất bại"
     }
 }
