@@ -41,7 +41,7 @@ async function onCall({ message, args, getLang, extra, data, userPermissions, pr
     const input = args.join(" ");
     if (!input) return message.reply(getLang("missingInput"));
 
-    wiki.default({ apiUrl: `https://${getSystemLanguage().split("_")[0]}.wikipedia.org/w/api.php` })
+    wiki.default({ apiUrl: `https://${getSystemLanguage().split("_")[0]}.wikipedia.org/api/rest_v1/page/summary/` })
         .find(input)
         .then(async (page) => {
             try {

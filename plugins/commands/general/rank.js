@@ -91,7 +91,7 @@ const langData = {
     },
     "vi_VN": {
         "rank_all_local": "-- Xếp hạng tương tác --\n👤 Exp của bạn: {senderExp} #{senderRank}\n📕 Thành viên:\n{allData}",
-        "rank_all_global": "-- Xếp hạng tương tác --\n👤 Exp của bạn: {senderExp} #{senderRank}\n📕 Top 20 global:\n{allData}",
+        "rank_all_global": "-- Xếp hạng tương tác --\n👤 Exp của bạn: {senderExp} #{senderRank}\n📕 Top 20 Toàn server:\n{allData}\n=> khi đủ 1000 EXP liên hệ admin để nhận quyền admin",
     },
     "ar_SY": {
         "rank_all_local": "-- تقييم التفاعل --\n👤 المستوى الخاص بك: {senderExp} #{senderRank}\n📕 أعضاء:\n{allData}",
