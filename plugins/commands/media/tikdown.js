@@ -35,7 +35,7 @@ async function getVideoURL(url) {
 
     try {
         const res = await global
-            .GET(`${global.xva_api.main}/tikdown?url=${url}`);
+            .GET(`https://xva-api.up.railway.app/api/tikdown?url=${url}`);
 
         return { videoUrl: res.data.result.video.url_list[0] || null, desc: res.data.result.aweme_detail.desc || null };
     } catch (e) {
