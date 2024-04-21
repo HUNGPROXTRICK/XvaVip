@@ -5,12 +5,18 @@ import cron from 'node-cron'
 const jobs = [
     {
         time: "0 22 * * *", // every day at 22:00 (10 PM)
-        message: () => "It's 10 PM, good night!",
+        message: () => "𝒄𝒉𝒖𝒄 𝒎𝒐𝒊 𝒏𝒈𝒖𝒐𝒊 𝒏𝒈𝒖 𝒏𝒈𝒐𝒏 ❤️",
     },
     {
-        time: "21 22 * * *", // every day at 22:21 (10:21 PM)
-        message: () => "It's 10:21 PM, good night!",
-        targetIDs: ["100008907121641"] // list of ids that bot will send to, remove this to send to all group
+        time: "0 3 * * *", // every day at 22:21 (10:21 PM)
+        message: () => "3𝒉 𝒔𝒂𝒏𝒈 𝒕𝒊𝒎 𝒅𝒐𝒊 𝒕𝒉𝒖 🐧",
+    },
+    {
+
+        time: "0 5 * * *", // every day at 22:21 (10:21 PM)
+
+        message: () => "𝒔𝒂𝒏𝒈 𝒓𝒐𝒊 𝒅𝒂𝒚 𝒅𝒆 😪",
+
     }
 ]
 
