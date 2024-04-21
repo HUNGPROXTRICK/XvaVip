@@ -27,7 +27,7 @@ async function onCall({ message, args, getLang }) {
     if (input.length == 0) return message.reply(getLang("missingInput"));
 
     global
-        .getStream(`${global.xva_api.popcat}/sadcat?text=${input}`)
+        .getStream(`https://api.popcat.xyz/sadcat?text=${input}`)
         .then(stream => {
             message.reply({ attachment: stream });
         })
