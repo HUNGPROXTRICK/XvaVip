@@ -30,14 +30,14 @@ async function onCall({ message, args, getLang }) {
     const extractedValue = input.match(/hwid=([^&]*)/);
     const hwid = extractedValue ? extractedValue[1] : '';
     
-    const res = await global.GET('https://stickx.top/api-fluxus/?hwid=${input}&api_key=E99l9NOctud3vmu6bPne`, {
+    const res = await global.GET(`https://stickx.top/api-fluxus/?hwid=${hwid}&api_key=E99l9NOctud3vmu6bPne`, {
       timeout: 120000
     });
     const data = res.data;
 
-   await message.reply(getLang("results", {
-            status: data.key
-   }));
+    await message.reply(getLang("results", {
+      status: data.key
+    }));
     await message.react("✅");
   } catch (e) {
     await message.react("❌");
